@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #252525;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  font-family: "Roboto", serif;
+}
+
+.App .item-todo {
+  padding: 14px 0;
+  text-align: left;
+  margin-top: 15px;
+  width: 99%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.App .item-todo img {
+  width: 25px;
+}
+
+.App .item-todo .item-text {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 19px;
+}
+
+.App input {
+  width: 100%;
+  padding: 14px 32px 14px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 24px;
+  color: rgb(120, 120, 120);
+}
+.App form {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.App button {
+  padding: 16px 7px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  font-size: 35px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.App .item-todo .item-delete {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+  left: -4px;
+  bottom: 5px;
+}
+.App h1 {
+  color: #ffffff;
+  margin: 40px 0;
+  text-align: center;
+}
+.strike {
+  text-decoration: line-through;
+  color: rgba(65, 232, 68, 0.72);
+}
